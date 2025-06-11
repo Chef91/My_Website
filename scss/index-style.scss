@@ -1,3 +1,14 @@
 //index.html - stylesheet
 
-@use '../scss/landing_page/custom'
+// Bootstrap Override
+@use '../scss/custom';
+
+// Import Components
+@use './components/animations';
+@use './components/buttons';
+@use './components/mixins';
+@use './components/typography';
+
+// Import Landing Page SCSS
+@use './landing_page/sections/navbar';
+@use './landing_page/sections/hero';
