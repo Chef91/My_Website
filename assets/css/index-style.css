@@ -11857,6 +11857,9 @@ textarea.form-control-lg {
 .gradcol {
   background: linear-gradient(to right, rgba(72, 8, 0, 0.95), rgba(124, 16, 9, 0.95));
 }
+.gradcol li {
+  padding: 0 0.8rem;
+}
 
 .nav-name {
   text-shadow: 3px 2px 1px rgba(41, 41, 41, 0.842);

@@ -1,6 +1,9 @@
 @use '../../custom' as *;
 .gradcol {
   background: linear-gradient(to right, rgba($dark-red, 0.95), rgba($lite-red, 0.95));
+  li  {
+    padding: 0 0.8rem;
+  }
 }
 // Controls Brand
 .nav-name  {
