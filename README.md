@@ -9,8 +9,10 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
 <ul>
 <li></li>
 <p></p>
-<li>6.11.2025 - Home Page Update</li>
-<p>Setup the basics for the home page. Header, Nav bar, and Hero section are now all in working order. I've also choosen theme colors and set that up in the sass file.</p>
+<br>
+<li>6.12.2025 - Home Page Update</li>
+<p>Setup the basics for the home page. Nav bar and Hero section are now all in working order. I've also choosen theme colors and set that up in the sass file.</p>
+<br>
 <li>6.9.2025 - Repo Created</li>
 <p>Created the github repo for my website. Setup some basic stuff to get started</p>
 </ul>
