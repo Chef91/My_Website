@@ -1,20 +1,36 @@
 @use '../custom' as *;
+@use '../components/mixins' as *;
 
 // Home Page - E-mail Me
 .btn-rounded  {
   position: relative;
-  padding: 0.5rem 3.4rem 0.5rem 1.7rem;
+  padding: 0.9rem 3.4rem 0.9rem 1.7rem;
   font-weight: 500;
   margin: 0.1rem 1.2rem;
-  border: 0.1rem solid rgba($white, 0.6);
+  border: 0.1rem solid rgba($white, 0.8);
+  background-color: $white;
+  box-shadow: 3px 5px 5px $secondary;
+		font-family: "Edu NSW ACT Cursive", serif;
   span  {
     position: absolute;
     background-color: $primary;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.7rem;
+    height: 2.7rem;
     top: 50%;
     right: 5px;
     transform: translateY(-50%);
     border-radius: 50%;
+		i  {
+		color: $white;
+		font-size: 1rem;
+		line-height: 2.5rem;
+		}
+  }
+  &:hover  {
+			@include btn-gradient;
+			box-shadow: 0px 0px 0px $secondary;
+			background-color: $lite-red;
+			color: $white;
+			border: 0.1rem solid rgba($lite-gray, 0.4);
   }
 }

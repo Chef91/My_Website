@@ -1,6 +1,13 @@
 @use '../custom' as *;
 
 //Gradients
+
+// Theme Gradient
 @mixin gradient  {
   background: linear-gradient(to right, rgba($dark-red, 0.95), rgba($lite-red, 0.95));
+}
+
+// Button Gradient
+@mixin btn-gradient  {
+  background: linear-gradient(to right, rgba($lite-gray, 0.75), rgba($lite-red, 0.95));
 }
