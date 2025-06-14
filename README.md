@@ -31,3 +31,9 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
   <li>6.9.2025 - Repo Created</li>
     <p>Created the github repo for my website. Setup some basic stuff to get started</p>
 </ul>
+
+## Resources/Credit:
+This will cover all the websites, resources, credits, etc.
+<br>
+Tutorial used as a reference guide for (Sass & Bootstrap 5 - still learning).<br>
+<a href="(https://www.youtube.com/watch?v=iJKCj8uAHz8&t=3312s)">FreeCodeCamp.org</a>
