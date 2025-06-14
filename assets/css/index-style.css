@@ -3865,15 +3865,15 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(206, 212, 218, 0.65);
+  --bs-navbar-color: rgba(206, 212, 218, 0.75);
   --bs-navbar-hover-color: rgba(255, 255, 255, 0.8);
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
-  --bs-navbar-active-color: rgba(255, 255, 255, 0.9);
+  --bs-navbar-active-color: rgba(255, 255, 255, 0.95);
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
-  --bs-navbar-brand-color: rgba(255, 255, 255, 0.9);
-  --bs-navbar-brand-hover-color: rgba(255, 255, 255, 0.9);
+  --bs-navbar-brand-color: rgba(255, 255, 255, 0.95);
+  --bs-navbar-brand-hover-color: rgba(255, 255, 255, 0.95);
   --bs-navbar-nav-link-padding-x: 0.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
@@ -11854,17 +11854,40 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.gradcol {
+.btn-rounded {
+  position: relative;
+  padding: 0.5rem 3.4rem 0.5rem 1.7rem;
+  font-weight: 500;
+  margin: 0.1rem 1.2rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+}
+.btn-rounded span {
+  position: absolute;
+  background-color: #7C1009;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.menu {
   background: linear-gradient(to right, rgba(72, 8, 0, 0.95), rgba(124, 16, 9, 0.95));
 }
-.gradcol li {
+.menu li {
   padding: 0 0.8rem;
+}
+.menu li a {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 
 .nav-name {
   text-shadow: 3px 2px 1px rgba(41, 41, 41, 0.842);
   font-family: "Fascinate", serif;
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: rgba(235, 235, 235, 0.842);
 }
 

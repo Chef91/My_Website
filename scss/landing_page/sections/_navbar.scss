@@ -1,20 +1,22 @@
 @use '../../custom' as *;
-.gradcol {
-  background: linear-gradient(to right, rgba($dark-red, 0.95), rgba($lite-red, 0.95));
+@use '../../components/mixins' as *;
+
+.menu {
+  @include gradient;
   li  {
     padding: 0 0.8rem;
-      a  {
-        color: $white;
-        text-transform: capitalize;
-        font-weight: 600;
-      }
+    a  {
+      color: $white;
+      text-transform: capitalize;
+      font-weight: 600;
+    }
   }
 }
 // Controls Brand
 .nav-name  {
   text-shadow: 3px 2px 1px rgba(41, 41, 41, 0.842);
   font-family: "Fascinate", serif;
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: rgba(235, 235, 235, 0.842);
 }
 // Controls links design
