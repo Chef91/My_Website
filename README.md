@@ -4,15 +4,30 @@ Welcome to my portfolio website repository. If you are reading this, then you ar
 ## About the Developer
 My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly was just the first internet handle that came to my mind, cause I am a professional chef, and it stuck. It's pretty much what everyone calls me. I have been fascinated with programming since the early 2000's. I remember when the Super Nintendo was a huge deal in my house. I grew up around technology and video games, but fell in love with cooking. After a 12 year career and needing hobbies, I found myself needing to learn how to code in order to create things like a catering website or Dungeons & Dragons tools for my friends. Then it just kind of became a thing where I really enjoy doing this and I started to really study how programming works and learning how to get better at it.
 
+## My Current Skills
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JAVASCRIPT</li>
+<li>PYTHON</li>
+<li>PHP</li>
+<li>LINUX (Ubuntu OS)</li>
+</ul>
+
+### Check out my other repos
+<ul>
+  <li><a href="#"></a></li>
+</ul>
+
 ## My Portfolio Updates
 
 <ul>
-<li></li>
-<p></p>
-<br>
-<li>6.12.2025 - Home Page Update</li>
-<p>Setup the basics for the home page. Nav bar and Hero section are now all in working order. I've also choosen theme colors and set that up in the sass file.</p>
-<br>
-<li>6.9.2025 - Repo Created</li>
-<p>Created the github repo for my website. Setup some basic stuff to get started</p>
+  <li></li>
+    <p></p>
+      <br>
+  <li>6.12.2025 - Home Page Update</li>
+    <p>Setup the basics for the home page. Nav bar and Hero section are now all in working order. I've also choosen theme colors and set that up in the sass file.</p>
+    <br>
+  <li>6.9.2025 - Repo Created</li>
+    <p>Created the github repo for my website. Setup some basic stuff to get started</p>
 </ul>
