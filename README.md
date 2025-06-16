@@ -16,14 +16,16 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
 
 ### Check out my other repos
 <ul>
-  <li><a href="#"></a></li>
+  <li><a href="https://github.com/Chef91/Tutorial-Repo">MY TUTORIAL REPO</a></li>
+  <li><a href="https://github.com/Chef91/Dnd-loot-website">D&D LOOT TABLE (WEBSITE)</a></li>
+  <li><a href="https://github.com/Chef91/2DC-Foodblog">MY FIRST PROJECT EVER (WEBSITE)</a></li>
 </ul>
 
 ## My Portfolio Updates
 
 <ul>
-  <li></li>
-    <p></p>
+  <li>6.15.2025 - Responsive Nav Bar</li>
+    <p>Adjusted some things so that the Brand name shrinks in size and the e-mail me button vanishes on "sm" (>575.98px) screens.</p>
       <br>
   <li>6.12.2025 - Home Page Update</li>
     <p>Setup the basics for the home page. Nav bar and Hero section are now all in working order. I've also choosen theme colors and set that up in the sass file.</p>

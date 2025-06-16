@@ -3,6 +3,9 @@
 
 // Home Page - E-mail Me
 .btn-rounded  {
+  @include media-breakpoint-down(sm){
+    display: none;
+  }
   position: relative;
   padding: 0.9rem 3.4rem 0.9rem 1.7rem;
   font-weight: 500;
@@ -10,7 +13,7 @@
   border: 0.1rem solid rgba($white, 0.8);
   background-color: $white;
   box-shadow: 3px 5px 5px $secondary;
-		font-family: "Edu NSW ACT Cursive", serif;
+	font-family: "Edu NSW ACT Cursive", serif;
   span  {
     position: absolute;
     background-color: $primary;

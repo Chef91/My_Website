@@ -14,10 +14,13 @@
 }
 // Controls Brand
 .nav-name  {
+  @include media-breakpoint-down(sm){
+    font-size: 1.3rem;
+  }
   text-shadow: 3px 2px 1px rgba(41, 41, 41, 0.842);
   font-family: "Fascinate", serif;
-  font-size: 1.6rem;
-  color: rgba(235, 235, 235, 0.842);
+  font-size: 2.3rem;
+  color: rgb(219, 219, 219);
 }
 // Controls links design
 .nav-custom  {
