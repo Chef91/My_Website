@@ -2,12 +2,14 @@
 @use '../components/mixins' as *;
 
 .display-2  {
-  margin-bottom: 1rem;
   text-transform: capitalize;
 
 &--intro  {
   display: inline-block;
+  margin: 3.5rem 0 1rem 0;
+  font-family: "Sansita Swashed", serif;
   font-weight: 700;
+  font-size: 6rem;
   color: $black;
 }
 &--description  {
