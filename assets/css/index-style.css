@@ -11899,10 +11899,13 @@ textarea.form-control-lg {
 .display-2--intro {
   display: inline-block;
   font-weight: 700;
+  color: #000;
 }
 .display-2--description {
   font-size: 1rem;
   display: block;
+  color: #000;
+  margin-top: 1.2rem;
 }
 
 .menu {
