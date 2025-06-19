@@ -38,4 +38,4 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
 This will cover all the websites, resources, credits, etc.
 <br>
 Tutorial used as a reference guide for (Sass & Bootstrap 5 - still learning).<br>
-<a href="(https://www.youtube.com/watch?v=iJKCj8uAHz8&t=3312s)">FreeCodeCamp.org</a>
+<a href="https://www.youtube.com/watch?v=iJKCj8uAHz8&t=3312s">FreeCodeCamp.org</a>
