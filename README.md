@@ -24,6 +24,9 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
 ## My Portfolio Updates
 
 <ul>
+  <li>6.19.2025 - Hero Section Update</li>
+    <p>Updating the hero section of the website. This is the section directly below the nav bar.</p>
+      <br>
   <li>6.15.2025 - Responsive Nav Bar</li>
     <p>Adjusted some things so that the Brand name shrinks in size and the e-mail me button vanishes on "sm" (>575.98px) screens.</p>
       <br>
@@ -38,4 +41,4 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
 This will cover all the websites, resources, credits, etc.
 <br>
 Tutorial used as a reference guide for (Sass & Bootstrap 5 - still learning).<br>
-<a href="https://www.youtube.com/watch?v=iJKCj8uAHz8&t=3312s">FreeCodeCamp.org</a>
+<a href="https://www.youtube.com/watch?v=iJKCj8uAHz8&t=3312s">FreeCodeCamp.org - Learn Bootstrap & Sass</a>
