@@ -11901,7 +11901,7 @@ textarea.form-control-lg {
   font-family: "Sansita Swashed", serif;
   font-weight: 700;
   font-size: 6rem;
-  color: #000;
+  color: #fff;
 }
 .display-2--description {
   font-size: 1rem;
@@ -11913,6 +11913,7 @@ textarea.form-control-lg {
 
 .menu {
   background: linear-gradient(to right, rgba(72, 8, 0, 0.95), rgba(124, 16, 9, 0.95));
+  border: 1px solid rgba(0, 0, 0, 0.5);
 }
 .menu li {
   padding: 0 0.8rem;
@@ -11944,6 +11945,20 @@ textarea.form-control-lg {
   font-size: 0.9rem;
   font-family: "Edu NSW ACT Cursive", serif;
   font-weight: 600;
+}
+
+.hero-section {
+  background: linear-gradient(to right, rgba(40, 37, 31, 0.95), black);
+  padding: 5rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.4;
 }
 
 /*# sourceMappingURL=index-style.css.map */

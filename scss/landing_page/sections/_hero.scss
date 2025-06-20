@@ -1,0 +1,15 @@
+@use '../../custom' as *;
+@use '../../components/mixins' as *;
+
+.hero-section  {
+  @include hro-gradient;
+  padding: 5rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+.hero-img  {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.4;
+}
