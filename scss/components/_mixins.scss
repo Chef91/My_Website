@@ -7,7 +7,7 @@
   background: linear-gradient(to right, rgba($dark-red, 0.95), rgba($lite-red, 0.95));
 }
 @mixin hro-gradient  {
-  background: linear-gradient(to right, rgba($lite-gray, 0.95), rgba($black, 1));
+  background: linear-gradient(to right, rgba($lite-gray, 0.95), rgba($black, 0.9));
 }
 // Button Gradient
 @mixin btn-gradient  {

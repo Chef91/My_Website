@@ -11903,12 +11903,27 @@ textarea.form-control-lg {
   font-size: 6rem;
   color: #fff;
 }
+@media (max-width: 575.98px) {
+  .display-2--intro {
+    font-size: 4rem;
+    margin: 1.5rem 0 1.5rem 0;
+  }
+}
 .display-2--description {
   font-size: 1rem;
   display: block;
   color: #000;
   margin-top: 1.2rem;
   text-transform: none;
+  color: #fff;
+  margin-top: 1.2rem;
+  font-family: "Sansita Swashed", serif;
+}
+@media (max-width: 575.98px) {
+  .display-2--description {
+    font-size: 1rem;
+    margin: 1.5rem 0 1.5rem 0;
+  }
 }
 
 .menu {
@@ -11948,7 +11963,7 @@ textarea.form-control-lg {
 }
 
 .hero-section {
-  background: linear-gradient(to right, rgba(40, 37, 31, 0.95), black);
+  background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
   padding: 5rem 0 0 0;
   width: 100%;
   height: 100%;
@@ -11959,6 +11974,11 @@ textarea.form-control-lg {
   object-fit: cover;
   display: block;
   opacity: 0.4;
+}
+@media (max-width: 575.98px) {
+  .hero-img {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=index-style.css.map */
