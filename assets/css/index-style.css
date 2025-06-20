@@ -11908,6 +11908,7 @@ textarea.form-control-lg {
   display: block;
   color: #000;
   margin-top: 1.2rem;
+  text-transform: none;
 }
 
 .menu {
