@@ -21,9 +21,11 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
   <li><a href="https://github.com/Chef91/2DC-Foodblog">MY FIRST PROJECT EVER (WEBSITE)</a></li>
 </ul>
 
-## My Portfolio Updates
+## My Portfolio Update
 
 <ul>
+  <li>6.21.2025 - About us Section</li>
+    <p>Working on the about us section of the pain page.</p>
   <li>6.19.2025 - Hero Section Update</li>
     <p>Updating the hero section of the website. This is the section directly below the nav bar.</p>
       <br>
