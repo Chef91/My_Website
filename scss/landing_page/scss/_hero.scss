@@ -1,0 +1,56 @@
+@use '../../custom' as *;
+@use '../../components/mixins' as *;
+
+// This controls the hero section
+.hero-section  {
+  @include hro-gradient;
+  padding: 2rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+// Left Side Text
+.hero  {
+&--intro  {
+  @include media-breakpoint-down(sm){
+    font-size: 4rem;
+    margin: 1.5rem 0 1.5rem 0;
+  }
+  display: inline-block;
+  margin: 2.5rem 0 0.5rem 0;
+  font-family: "Sansita Swashed", serif;
+  font-weight: 700;
+  font-size: 6rem;
+  text-transform: capitalize;
+  color: $white;
+  border-bottom: 2px solid $white;
+}
+&--description  {
+  @include media-breakpoint-down(sm){
+    font-size: 1rem;
+    margin: 1.5rem 0 1.5rem 0;
+  }
+  font-size: 1.3rem;
+  display: block;
+  color: $black;
+  margin-top: 0.2rem;
+  text-transform: none;
+  color: $white;
+  margin-top: 1.2rem;
+  font-family: "Sansita Swashed", serif;
+}
+}
+// Right side image (webkit is giving image opacity)
+.hero-img  {
+  @include media-breakpoint-down(sm){
+    display: none;
+  }
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 30%);
+  mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 30%);
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}

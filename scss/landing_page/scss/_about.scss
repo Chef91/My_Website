@@ -1,0 +1,15 @@
+@use '../../custom' as *;
+@use '../../components/mixins' as *;
+
+// Left side - Trusted by section
+.trusted-section  {
+  margin: 3rem 1rem 0 1rem;
+  padding: 0;
+  border-right: 2px solid $black;
+  &--header  {
+
+  }
+  &--companies  {
+    
+  }
+}

@@ -7,8 +7,8 @@
 @use './components/animations';
 @use './components/buttons';
 @use './components/mixins';
-@use './components/typography';
 
 // Import Landing Page SCSS
-@use './landing_page/sections/navbar';
-@use './landing_page/sections/hero';
+@use './landing_page/scss/navbar';
+@use './landing_page/scss/hero';
+@use './landing_page/scss/about'

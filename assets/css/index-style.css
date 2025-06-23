@@ -11892,41 +11892,6 @@ textarea.form-control-lg {
   border: 0.1rem solid rgba(40, 37, 31, 0.4);
 }
 
-.display-2 {
-  text-transform: capitalize;
-}
-.display-2--intro {
-  display: inline-block;
-  margin: 2.5rem 0 0.5rem 0;
-  font-family: "Sansita Swashed", serif;
-  font-weight: 700;
-  font-size: 6rem;
-  color: #fff;
-  border-bottom: 2px solid #fff;
-}
-@media (max-width: 575.98px) {
-  .display-2--intro {
-    font-size: 4rem;
-    margin: 1.5rem 0 1.5rem 0;
-  }
-}
-.display-2--description {
-  font-size: 1.3rem;
-  display: block;
-  color: #000;
-  margin-top: 0.2rem;
-  text-transform: none;
-  color: #fff;
-  margin-top: 1.2rem;
-  font-family: "Sansita Swashed", serif;
-}
-@media (max-width: 575.98px) {
-  .display-2--description {
-    font-size: 1rem;
-    margin: 1.5rem 0 1.5rem 0;
-  }
-}
-
 .menu {
   background: linear-gradient(to right, rgba(72, 8, 0, 0.95), rgba(124, 16, 9, 0.95));
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -11970,6 +11935,39 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.hero--intro {
+  display: inline-block;
+  margin: 2.5rem 0 0.5rem 0;
+  font-family: "Sansita Swashed", serif;
+  font-weight: 700;
+  font-size: 6rem;
+  text-transform: capitalize;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+@media (max-width: 575.98px) {
+  .hero--intro {
+    font-size: 4rem;
+    margin: 1.5rem 0 1.5rem 0;
+  }
+}
+.hero--description {
+  font-size: 1.3rem;
+  display: block;
+  color: #000;
+  margin-top: 0.2rem;
+  text-transform: none;
+  color: #fff;
+  margin-top: 1.2rem;
+  font-family: "Sansita Swashed", serif;
+}
+@media (max-width: 575.98px) {
+  .hero--description {
+    font-size: 1rem;
+    margin: 1.5rem 0 1.5rem 0;
+  }
+}
+
 .hero-img {
   width: 100%;
   object-fit: cover;
@@ -11985,6 +11983,12 @@ textarea.form-control-lg {
   .hero-img {
     display: none;
   }
+}
+
+.trusted-section {
+  margin: 3rem 1rem 0 1rem;
+  padding: 0;
+  border-right: 2px solid #000;
 }
 
 /*# sourceMappingURL=index-style.css.map */
