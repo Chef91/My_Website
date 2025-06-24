@@ -11985,10 +11985,17 @@ textarea.form-control-lg {
   }
 }
 
-.trusted-section {
-  margin: 3rem 1rem 0 1rem;
-  padding: 0;
+.trusted-main {
   border-right: 2px solid #000;
+}
+
+.trusted-section {
+  margin: 2rem 0 0 0;
+  padding: 0;
+}
+.trusted-section--header {
+  font-size: 3rem;
+  font-family: "Sansita Swashed", serif;
 }
 
 /*# sourceMappingURL=index-style.css.map */
