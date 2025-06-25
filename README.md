@@ -24,6 +24,8 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
 ## My Portfolio Update
 
 <ul>
+  <li>6.25.2025 - Trusted By Section</li>
+    <p>Working on the trusted by area of the landing page. Updating with placeholder images.</p>
   <li>6.21.2025 - About us Section</li>
     <p>Working on the about us section of the pain page.</p>
   <li>6.19.2025 - Hero Section Update</li>
@@ -35,8 +37,6 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
   <li>6.12.2025 - Home Page Update</li>
     <p>Setup the basics for the home page. Nav bar and Hero section are now all in working order. I've also choosen theme colors and set that up in the sass file.</p>
     <br>
-  <li>6.9.2025 - Repo Created</li>
-    <p>Created the github repo for my website. Setup some basic stuff to get started</p>
 </ul>
 
 ## Resources/Credit:

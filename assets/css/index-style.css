@@ -11985,17 +11985,44 @@ textarea.form-control-lg {
   }
 }
 
-.trusted-main {
-  border-right: 2px solid #000;
+.heading-txt {
+  margin: 2rem 0 2rem 0;
+  font-family: "Sansita Swashed", serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+@media (max-width: 575.98px) {
+  .heading-txt {
+    font-size: 2rem;
+  }
 }
 
-.trusted-section {
-  margin: 2rem 0 0 0;
-  padding: 0;
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  background-color: #7C1009;
 }
-.trusted-section--header {
-  font-size: 3rem;
-  font-family: "Sansita Swashed", serif;
+@media (max-width: 575.98px) {
+  .heading-line::before {
+    display: none;
+  }
+}
+
+.heading-line::after {
+  content: "";
+  margin: 0 auto;
+  padding-top: 0.5rem;
+  width: 2rem;
+  height: 0.3rem;
+  display: block;
+  background-color: #7C1009;
+}
+@media (max-width: 575.98px) {
+  .heading-line::after {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=index-style.css.map */

@@ -1,16 +1,35 @@
 @use '../../custom' as *;
 @use '../../components/mixins' as *;
 
-// Left side - Trusted by section
-.trusted-main  {
-    border-right: 2px solid $black;
-}
-
-.trusted-section  {
-  margin: 2rem 0 0 0;
-  padding: 0;
-  &--header  {
-    font-size: 3rem;
-    font-family: "Sansita Swashed", serif;
+.heading-txt  {
+  @include media-breakpoint-down(sm)  {
+    font-size: 2rem;
   }
+  margin: 2rem 0 2rem 0;
+  font-family: "Sansita Swashed", serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+//line divider
+.heading-line::before  {
+  @include media-breakpoint-down(sm){
+    display: none;
+  }
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  background-color: $primary;
+}
+.heading-line::after  {
+  @include media-breakpoint-down(sm){
+    display: none;
+  }
+  content: "";
+  margin: 0 auto;
+  padding-top: 0.5rem;
+  width: 2rem;
+  height: 0.3rem;
+  display: block;
+  background-color: $primary;
 }
