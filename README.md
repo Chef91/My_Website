@@ -25,7 +25,7 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
 
 <ul>
   <li>6.25.2025 - Trusted By Section</li>
-    <p>Working on the trusted by area of the landing page. Updating with placeholder images.</p>
+    <p>Working on the trusted by area of the landing page. Updating with placeholder images. Also setup a div that creates a line to separate the heading from the content.</p>
   <li>6.21.2025 - About us Section</li>
     <p>Working on the about us section of the pain page.</p>
   <li>6.19.2025 - Hero Section Update</li>
@@ -34,13 +34,18 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
   <li>6.15.2025 - Responsive Nav Bar</li>
     <p>Adjusted some things so that the Brand name shrinks in size and the e-mail me button vanishes on "sm" (>575.98px) screens.</p>
       <br>
-  <li>6.12.2025 - Home Page Update</li>
-    <p>Setup the basics for the home page. Nav bar and Hero section are now all in working order. I've also choosen theme colors and set that up in the sass file.</p>
-    <br>
 </ul>
 
 ## Resources/Credit:
 This will cover all the websites, resources, credits, etc.
 <br>
-Tutorial used as a reference guide for (Sass & Bootstrap 5 - still learning).<br>
+- Tutorial used as a reference guide for (Sass & Bootstrap 5 - still learning).<br>
 <a href="https://www.youtube.com/watch?v=iJKCj8uAHz8&t=3312s">FreeCodeCamp.org - Learn Bootstrap & Sass</a>
+- Node Packages used:
+<ul>
+  <li><a href="https://www.npmjs.com/package/sass">SASS</a></li>
+  <li><a href="https://getbootstrap.com/">Bootstrap 5 (BS5)</a></li>
+  <li><a href="https://fontawesome.com/">Font Awesome</a></li>
+  <li><a href="https://www.npmjs.com/package/autoprefixer">Auto Prefixer</a></li>
+  <li></li>
+</ul>
