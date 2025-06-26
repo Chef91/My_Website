@@ -1,6 +1,7 @@
 @use '../../custom' as *;
 @use '../../components/mixins' as *;
 
+//Trusted by text
 .heading-txt  {
   @include media-breakpoint-down(sm)  {
     font-size: 2rem;
@@ -13,23 +14,28 @@
 //line divider
 .heading-line::before  {
   @include media-breakpoint-down(sm){
-    display: none;
+    width: 20rem;
+    height: 0.2rem;
   }
   content: "";
-  width: 10rem;
-  height: 0.1rem;
+  margin: 0 auto;
+  width: 35rem;
+  height: 0.3rem;
   display: block;
   background-color: $primary;
+  border-radius: 0 0 1rem 1rem;
 }
 .heading-line::after  {
   @include media-breakpoint-down(sm){
-    display: none;
+    width: 5rem;
+    height: 0.3rem;
   }
   content: "";
   margin: 0 auto;
   padding-top: 0.5rem;
-  width: 2rem;
-  height: 0.3rem;
+  width: 10rem;
+  height: 0.5rem;
   display: block;
   background-color: $primary;
+  border-radius: 0 0 1rem 1rem;
 }

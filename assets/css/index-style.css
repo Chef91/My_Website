@@ -11933,6 +11933,7 @@ textarea.form-control-lg {
   padding: 2rem 0 0 0;
   width: 100%;
   height: 100%;
+  box-shadow: 0px 2px 20px #000;
 }
 
 .hero--intro {
@@ -11999,14 +12000,17 @@ textarea.form-control-lg {
 
 .heading-line::before {
   content: "";
-  width: 10rem;
-  height: 0.1rem;
+  margin: 0 auto;
+  width: 35rem;
+  height: 0.3rem;
   display: block;
   background-color: #7C1009;
+  border-radius: 0 0 1rem 1rem;
 }
 @media (max-width: 575.98px) {
   .heading-line::before {
-    display: none;
+    width: 20rem;
+    height: 0.2rem;
   }
 }
 
@@ -12014,14 +12018,16 @@ textarea.form-control-lg {
   content: "";
   margin: 0 auto;
   padding-top: 0.5rem;
-  width: 2rem;
-  height: 0.3rem;
+  width: 10rem;
+  height: 0.5rem;
   display: block;
   background-color: #7C1009;
+  border-radius: 0 0 1rem 1rem;
 }
 @media (max-width: 575.98px) {
   .heading-line::after {
-    display: none;
+    width: 5rem;
+    height: 0.3rem;
   }
 }
 
