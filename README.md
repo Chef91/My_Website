@@ -26,14 +26,15 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
 <ul>
   <li>6.25.2025 - Trusted By Section</li>
     <p>Working on the trusted by area of the landing page. Updating with placeholder images. Also setup a div that creates a line to separate the heading from the content.</p>
+    <br>
   <li>6.21.2025 - About us Section</li>
     <p>Working on the about us section of the pain page.</p>
   <li>6.19.2025 - Hero Section Update</li>
     <p>Updating the hero section of the website. This is the section directly below the nav bar.</p>
-      <br>
+    <br>
   <li>6.15.2025 - Responsive Nav Bar</li>
     <p>Adjusted some things so that the Brand name shrinks in size and the e-mail me button vanishes on "sm" (>575.98px) screens.</p>
-      <br>
+    <br>
 </ul>
 
 ## Resources/Credit:
@@ -41,6 +42,7 @@ This will cover all the websites, resources, credits, etc.
 <br>
 - Tutorial used as a reference guide for (Sass & Bootstrap 5 - still learning).<br>
 <a href="https://www.youtube.com/watch?v=iJKCj8uAHz8&t=3312s">FreeCodeCamp.org - Learn Bootstrap & Sass</a>
+<br>
 - Node Packages used:
 <ul>
   <li><a href="https://www.npmjs.com/package/sass">SASS</a></li>
