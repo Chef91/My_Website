@@ -1,6 +1,18 @@
 @use '../../custom' as *;
-@use '../../components/mixins' as *;
+@use '../components/mixins' as *;
 
 .about-us  {
-  background-color: $gray-500;
+  @include abt-gradient;
+  margin: 0;
+  padding: 2rem 0 1rem 0;
+  h2  {
+    @include media-breakpoint-down (sm)  {
+      font-size: 1.7rem;
+    }
+    font-family: "Sansita Swashed", serif;
+    font-weight: 600;
+    font-size: 4rem;
+    color: $white;
+    text-decoration: underline;
+  }
 }

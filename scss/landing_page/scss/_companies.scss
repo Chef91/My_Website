@@ -1,5 +1,5 @@
 @use '../../custom' as *;
-@use '../../components/mixins' as *;
+@use '../components/mixins' as *;
 
 //Trusted by text
 .heading-txt  {
@@ -41,8 +41,11 @@
 }
 // Company images
 .company  {
-  padding: 0;
-  margin-bottom: 8rem;
+  @include media-breakpoint-down (sm)  {
+    padding: 0rem 0rem 10rem 0rem;
+  }
+  padding: 0rem 0rem 20rem 0rem;
+  box-shadow: inset 0px -11px 18px 0px $gray-500;
   &--logo  {
     @include media-breakpoint-down (sm)  {
       height: 2.6rem;

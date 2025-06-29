@@ -1,4 +1,4 @@
-@use '../custom' as *;
+@use '../../custom' as *;
 
 //Gradients
 
@@ -6,8 +6,13 @@
 @mixin gradient  {
   background: linear-gradient(to right, rgba($dark-red, 0.95), rgba($lite-red, 0.95));
 }
+// Hero Gradient
 @mixin hro-gradient  {
   background: linear-gradient(to right, rgba($lite-gray, 0.95), rgba($black, 0.9));
+}
+// About Gradient
+@mixin abt-gradient  {
+  background: linear-gradient(to right, rgba($black, 0.9), rgba($lite-gray, 0.8));
 }
 // Button Gradient
 @mixin btn-gradient  {

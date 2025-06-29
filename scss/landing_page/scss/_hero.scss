@@ -1,5 +1,5 @@
 @use '../../custom' as *;
-@use '../../components/mixins' as *;
+@use '../components/mixins' as *;
 
 // This controls the hero section
 .hero-section  {
@@ -14,10 +14,10 @@
 &--intro  {
   @include media-breakpoint-down(sm){
     font-size: 4rem;
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 2.5rem 0 1.8rem 0;
   }
   display: inline-block;
-  margin: 2.5rem 0 0.5rem 0;
+  margin: 2.5rem 0 1rem 0;
   font-family: "Sansita Swashed", serif;
   font-weight: 700;
   font-size: 6rem;
@@ -28,15 +28,14 @@
 &--description  {
   @include media-breakpoint-down(sm){
     font-size: 1rem;
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 0.2rem 0 1.7rem 0;
   }
   font-size: 1.3rem;
   display: block;
   color: $black;
-  margin-top: 0.2rem;
+  margin-top: 1.2rem;
   text-transform: none;
   color: $white;
-  margin-top: 1.2rem;
   font-family: "Sansita Swashed", serif;
 }
 }

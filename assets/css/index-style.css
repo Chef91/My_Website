@@ -11938,7 +11938,7 @@ textarea.form-control-lg {
 
 .hero--intro {
   display: inline-block;
-  margin: 2.5rem 0 0.5rem 0;
+  margin: 2.5rem 0 1rem 0;
   font-family: "Sansita Swashed", serif;
   font-weight: 700;
   font-size: 6rem;
@@ -11949,23 +11949,22 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .hero--intro {
     font-size: 4rem;
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 2.5rem 0 1.8rem 0;
   }
 }
 .hero--description {
   font-size: 1.3rem;
   display: block;
   color: #000;
-  margin-top: 0.2rem;
+  margin-top: 1.2rem;
   text-transform: none;
   color: #fff;
-  margin-top: 1.2rem;
   font-family: "Sansita Swashed", serif;
 }
 @media (max-width: 575.98px) {
   .hero--description {
     font-size: 1rem;
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 0.2rem 0 1.7rem 0;
   }
 }
 
@@ -12032,8 +12031,13 @@ textarea.form-control-lg {
 }
 
 .company {
-  padding: 0;
-  margin-bottom: 8rem;
+  padding: 0rem 0rem 20rem 0rem;
+  box-shadow: inset 0px -11px 18px 0px #adb5bd;
+}
+@media (max-width: 575.98px) {
+  .company {
+    padding: 0rem 0rem 10rem 0rem;
+  }
 }
 .company--logo {
   max-width: 100%;
@@ -12058,7 +12062,21 @@ textarea.form-control-lg {
 }
 
 .about-us {
-  background-color: #adb5bd;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(40, 37, 31, 0.8));
+  margin: 0;
+  padding: 2rem 0 1rem 0;
+}
+.about-us h2 {
+  font-family: "Sansita Swashed", serif;
+  font-weight: 600;
+  font-size: 4rem;
+  color: #fff;
+  text-decoration: underline;
+}
+@media (max-width: 575.98px) {
+  .about-us h2 {
+    font-size: 1.7rem;
+  }
 }
 
 /*# sourceMappingURL=index-style.css.map */
