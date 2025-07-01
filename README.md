@@ -24,6 +24,8 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
 ## My Portfolio Update
 
 <ul>
+  <li>6.30.2025 - Company Section & more</li>
+    <p>Finished adding hte trusted by companies section. Added images, and grayscale over them during hover. Adding About us Section.</p>
   <li>6.25.2025 - Trusted By Section</li>
     <p>Working on the trusted by area of the landing page. Updating with placeholder images. Also setup a div that creates a line to separate the heading from the content.</p>
     <br>
