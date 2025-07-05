@@ -50,6 +50,7 @@
   <section id="companies" class="company">
     <div class="container">
       <div class="row text-center">
+        <!-- Header -->
         <h4 class="fw-bold lead mb-3 heading-txt">trusted by companies like</h4>
         <div class="heading-line mb-5"></div>
       </div>
@@ -105,6 +106,7 @@
   <section id="About US" class="about-us">
     <div class="container">
       <div class="row text-center">
+        <!-- Header -->
         <h2>Web Development experts</h2>
       </div>
     </div>
@@ -115,21 +117,25 @@
             <p>Our developers specialize in a variety of skills. Each developer will have their skills listed with their profile card.
               Come take a look at what our developers have to offer by clicking on the button with each of their names.
             </p>
+          <!-- JavaScript Buttons -->
           <div class="d-grid gap-2 col-6 mx-auto">
             <h4 class="buttons-txt">Head Developer:</h4>
-            <button class="btn btn-primary mb-3" type="button">Wesley Graham (Owner)</button>
+            <button onclick="showProfile('profileChef')" class="btn btn-primary mb-3 ms-5 me-5">Wesley Graham [Owner]</button>
             <h4 class="buttons-txt">Senior Developers:</h4>
-            <button class="btn btn-primary mb-3" type="button">Button</button>
+            <button onclick="showProfile('profileChef')" class="btn btn-primary mb-3 ms-5 me-5">Wesley Graham [Owner]</button>
             <h4 class="buttons-txt">Junior Developer:</h4>
-            <button class="btn btn-primary mb-3" type="button">Button</button>
+            <button onclick="showProfile('profileChef')" class="btn btn-primary mb-3 ms-5 me-5">Wesley Graham [Owner]</button>
           </div>
         </div>
         <div class="col-md-6 card-div">
           <!-- Profile Card -->
           <div class="card" style="width: 40rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img id="cardImage" src="./images/landing_images/hero-coder.png" class="card-img-top mx-auto d-block mt-3 card-fix" alt="...">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p id="cardText" class="card-text text-center profile-text">We have some of the best programmers in the industry on our team. Our developers specialize in many different areas
+                  and can develop websites pretty fast. If you need web dev services, you have found the right team! Come check out our team profiles!
+                </p>
+                <!-- tech logos -->
               </div>
           </div>
         </div>
@@ -143,5 +149,6 @@
     <!-- Footer Information -->
   </footer>
   <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="./JavaScript/landing_page/profile.js"></script>
 </body>
 </html>

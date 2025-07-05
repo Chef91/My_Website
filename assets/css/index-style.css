@@ -12102,7 +12102,18 @@ textarea.form-control-lg {
 }
 
 .card-div {
-  padding: 0rem 8rem 0 8rem;
+  padding: 1rem 8rem 0 8rem;
+}
+
+.card-fix {
+  height: 24rem;
+  width: 25rem;
+  border-radius: 5rem;
+  border: 0.3rem solid #000;
+}
+
+.profile-text {
+  padding: 0.5rem 1.5rem 0rem 1.5rem;
 }
 
 /*# sourceMappingURL=index-style.css.map */

@@ -41,5 +41,15 @@
 }
 // Right Cards
 .card-div  {
-  padding: 0rem 8rem 0 8rem;
+  padding: 1rem 8rem 0 8rem;
+}
+// Image Fix
+.card-fix  {
+  height: 24rem;
+  width: 25rem;
+  border-radius: 5rem;
+  border: 0.3rem solid $black;
+}
+.profile-text  {
+  padding: 0.5rem 1.5rem 0rem 1.5rem;
 }
