@@ -1,5 +1,5 @@
-@use '../../custom' as *;
-@use '../components/mixins' as *;
+@use '../custom' as *;
+@use '../mixins' as *;
 
 //Section Header
 .about-us  {
@@ -28,7 +28,7 @@
   p  {
     color: $white;
   }
-  border-right: 2px solid $gray-200;
+  border-right: 1px solid $gray-200;
   padding: 0.5rem 2rem 0.5rem 2rem;
 }
 //buttons codes
@@ -37,4 +37,9 @@
   font-weight: 600;
   font-size: 2rem;
   color: $white;
+  text-shadow: 2px 2px 1px $gray-500;
+}
+// Right Cards
+.card-div  {
+  padding: 0rem 8rem 0 8rem;
 }

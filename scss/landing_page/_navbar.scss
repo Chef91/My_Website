@@ -1,6 +1,39 @@
-@use '../../custom' as *;
-@use '../components/mixins' as *;
+@use '../custom' as *;
+@use '../mixins' as *;
 
+.menu {
+  @include gradient;
+  li  {
+    padding: 0 0.8rem;
+    a  {
+      color: $white;
+      text-transform: capitalize;
+      font-weight: 600;
+    }
+  }
+  border: 1px solid rgba($black, 0.5);
+}
+// Controls Brand
+.nav-name  {
+  @include media-breakpoint-down(sm){
+    font-size: 1.3rem;
+  }
+  &:hover  {
+    color: $chestnut;
+    text-shadow: 3px 2px 2px rgba(128, 83, 0, 0.842);
+  }
+  margin-left: 1.5rem;
+  text-shadow: 3px 2px 1px rgba(41, 41, 41, 0.842);
+  font-family: "Fascinate", serif;
+  font-size: 2.3rem;
+  color: $gray-300;
+}
+// Controls links design
+.nav-custom  {
+  font-size: 0.9rem;
+  font-family: "Edu NSW ACT Cursive", serif;
+  font-weight: 600;
+}
 // Home Page - E-mail Me
 .btn-rounded  {
   @include media-breakpoint-down(sm){

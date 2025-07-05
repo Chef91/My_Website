@@ -4,12 +4,10 @@
 @use '../scss/custom';
 
 // Import Components - landing_page
-@use './landing_page/components/animations';
-@use './landing_page/components/buttons';
-@use './landing_page/components/mixins';
+@use './mixins';
 
 // Import Landing Page SCSS - landing_page
-@use './landing_page/scss/navbar';
-@use './landing_page/scss/hero';
-@use './landing_page/scss/companies';
-@use './landing_page/scss/about';
+@use './landing_page/navbar';
+@use './landing_page/hero';
+@use './landing_page/companies';
+@use './landing_page/about';
