@@ -11893,7 +11893,7 @@ textarea.form-control-lg {
 }
 
 .menu {
-  background: linear-gradient(to right, rgba(72, 8, 0, 0.95), rgba(124, 16, 9, 0.95));
+  background: linear-gradient(to right, #480800, #7c1009);
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 .menu li {
@@ -12077,6 +12077,27 @@ textarea.form-control-lg {
   .about-us h2 {
     font-size: 1.7rem;
   }
+}
+
+.about-header {
+  border-right: 2px solid #e9ecef;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+.about-header h3 {
+  font-family: "Sansita Swashed", serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #fff;
+}
+.about-header p {
+  color: #fff;
+}
+
+.buttons-txt {
+  font-family: "Sansita Swashed", serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #fff;
 }
 
 /*# sourceMappingURL=index-style.css.map */

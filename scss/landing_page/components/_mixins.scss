@@ -4,7 +4,7 @@
 
 // Theme Gradient
 @mixin gradient  {
-  background: linear-gradient(to right, rgba($dark-red, 0.95), rgba($lite-red, 0.95));
+  background: linear-gradient(to right, rgba($dark-red, 1), rgba($lite-red, 1));
 }
 // Hero Gradient
 @mixin hro-gradient  {

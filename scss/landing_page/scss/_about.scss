@@ -1,6 +1,7 @@
 @use '../../custom' as *;
 @use '../components/mixins' as *;
 
+//Section Header
 .about-us  {
   @include abt-gradient;
   margin: 0;
@@ -15,4 +16,25 @@
     color: $white;
     text-decoration: underline;
   }
+}
+// Left Header
+.about-header  {
+  h3  {
+    font-family: "Sansita Swashed", serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: $white;
+  }
+  p  {
+    color: $white;
+  }
+  border-right: 2px solid $gray-200;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+//buttons codes
+.buttons-txt  {
+  font-family: "Sansita Swashed", serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: $white;
 }
