@@ -27,5 +27,8 @@ $navbar-light-color: rgba($gray-400, .75);
 $navbar-light-hover-color: rgba($white, .8);
 $navbar-light-active-color: rgba($white, .95);
 
+// Card Color
+$card-bg: $chestnut;
+
 // Import Bootstrap 5 - Keep below other code
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
