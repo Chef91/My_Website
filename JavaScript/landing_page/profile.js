@@ -16,13 +16,29 @@ const profiles = {
     image5: '<img src="./images/landing_images/profiles/program_icons/python.png" class="skill-img5">'
   },
   profileJohn: {
-    image: 'img2.jpg',
-    text: 'This is the second profile.',
+    image: './images/landing_images/profiles/johndoe.jpg',
+    text: `This is John Doe, our senior back-end developer. John has been with the company for several years now. He is in charge of all of our back-end operations.
+    This means he deals with a lot of programming languages like Python, PHP, MySql, and so on. He's a reliable part of the team because he takes care of all the things
+    you don't see when you are looking at our website.`,
+    heading: 'Johns skills',
+    image1: '<img src="./images/landing_images/profiles/program_icons/php.png" class="skill-img4">',
+    image2: '<img src="./images/landing_images/profiles/program_icons/python.png" class="skill-img5">',
+    image3: '',
+    image4: '',
+    image5: ''
   },
   profileJane: {
-    image: 'img3.jpg',
-    text: 'This is the third profile.',
-  }
+    image: './images/landing_images/profiles/johndoe.jpg',
+    text: `This is John Doe, our senior back-end developer. John has been with the company for several years now. He is in charge of all of our back-end operations.
+    This means he deals with a lot of programming languages like Python, PHP, MySql, and so on. He's a reliable part of the team because he takes care of all the things
+    you don't see when you are looking at our website.`,
+    heading: 'Johns skills',
+    image1: '<img src="./images/landing_images/profiles/program_icons/php.png" class="skill-img4">',
+    image2: '<img src="./images/landing_images/profiles/program_icons/python.png" class="skill-img5">',
+    image3: '',
+    image4: '',
+    image5: ''
+  },
 };
 
 function showProfile(profileKey) {
