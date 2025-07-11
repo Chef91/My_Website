@@ -9,11 +9,11 @@ const profiles = {
     Wesley has been programming for just over two years. He studies full-stack, but his strongest skills are currently in Front-End Development. He likes
     to program mostly in JavaScript, Python, and PHP right now. You can look below to see his skills:`,
     heading: 'Wesleys Skills',
-    image1: '<img src="./images/landing_images/profiles/program_icons/fe_trio.png" class="skill-img1">',
-    image2: '<img src="./images/landing_images/profiles/program_icons/bootstrap.png" class="skill-img2">',
-    image3: '<img src="./images/landing_images/profiles/program_icons/sass.png" class="skill-img3">',
-    image4: '<img src="./images/landing_images/profiles/program_icons/php.png" class="skill-img4">',
-    image5: '<img src="./images/landing_images/profiles/program_icons/python.png" class="skill-img5">'
+    image1: '<i class="fa-brands fa-html5 icon-custom"></i>',
+    image2: '<i class="fa-brands fa-css3-alt icon-custom"></i>',
+    image3: '<i class="fa-brands fa-js icon-custom"></i>',
+    image4: '<i class="fa-brands fa-php icon-custom"></i>',
+    image5: '<i class="fa-brands fa-react icon-custom"></i>'
   },
   profileJohn: {
     image: './images/landing_images/profiles/johndoe.jpg',
@@ -21,10 +21,10 @@ const profiles = {
     This means he deals with a lot of programming languages like Python, PHP, MySql, and so on. He's a reliable part of the team because he takes care of all the things
     you don't see when you are looking at our website.`,
     heading: 'Johns skills',
-    image1: '<img src="./images/landing_images/profiles/program_icons/php.png" class="skill-img4">',
-    image2: '<img src="./images/landing_images/profiles/program_icons/python.png" class="skill-img5">',
-    image3: '',
-    image4: '',
+    image1: '<i class="fa-brands fa-php icon-custom"></i>',
+    image2: '<i class="fa-brands fa-python icon-custom"></i>',
+    image3: '<i class="fa-brands fa-java icon-custom"></i>',
+    image4: '<i class="fa-brands fa-golang icon-custom"></i>',
     image5: ''
   },
   profileJane: {
@@ -33,10 +33,10 @@ const profiles = {
     This means he deals with a lot of programming languages like Python, PHP, MySql, and so on. He's a reliable part of the team because he takes care of all the things
     you don't see when you are looking at our website.`,
     heading: 'Johns skills',
-    image1: '<img src="./images/landing_images/profiles/program_icons/php.png" class="skill-img4">',
-    image2: '<img src="./images/landing_images/profiles/program_icons/python.png" class="skill-img5">',
-    image3: '',
-    image4: '',
+    image1: '<i class="fa-brands fa-html5 icon-custom"></i>',
+    image2: '<i class="fa-brands fa-css3-alt icon-custom"></i>',
+    image3: '<i class="fa-brands fa-js icon-custom"></i>',
+    image4: '<i class="fa-brands fa-react icon-custom"></i>',
     image5: ''
   },
 };
