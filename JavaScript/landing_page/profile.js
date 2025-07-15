@@ -32,7 +32,7 @@ const profiles = {
   },
   // Placeholder
   profileJane: {
-    image: './images/landing_images/profiles/johndoe.jpg',
+    image: './images/landing_images/profiles/janedoe.jpg',
     text: `This is John Doe, our senior back-end developer. John has been with the company for several years now. He is in charge of all of our back-end operations.
     This means he deals with a lot of programming languages like Python, PHP, MySql, and so on. He's a reliable part of the team because he takes care of all the things
     you don't see when you are looking at our website.`,
