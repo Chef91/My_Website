@@ -12154,11 +12154,11 @@ textarea.form-control-lg {
 }
 
 ul {
-  margin-left: 3rem;
+  text-align: center;
 }
 ul li {
   display: inline;
-  margin: 0;
+  margin: 1.5rem;
 }
 
 /*# sourceMappingURL=index-style.css.map */
