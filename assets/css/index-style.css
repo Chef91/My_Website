@@ -11986,7 +11986,7 @@ textarea.form-control-lg {
 }
 
 .heading-txt {
-  margin: 2rem 0 2rem 0;
+  margin: 5rem 0 5rem 0;
   font-family: "Sansita Swashed", serif;
   font-weight: 600;
   font-size: 3rem;
@@ -12064,7 +12064,7 @@ textarea.form-control-lg {
 .about-us {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(40, 37, 31, 0.8));
   margin: 0;
-  padding: 2rem 0 1rem 0;
+  padding: 6rem 0 6rem 0;
 }
 .about-us h2 {
   font-family: "Sansita Swashed", serif;
@@ -12130,8 +12130,8 @@ textarea.form-control-lg {
 }
 
 .card-fix {
-  height: 20rem;
-  width: 18rem;
+  height: 18rem;
+  width: 16rem;
   border-radius: 2rem;
   border: 0.2rem solid #28251F;
   background-color: #fff;
@@ -12159,6 +12159,46 @@ ul {
 ul li {
   display: inline;
   margin: 1.5rem;
+}
+
+.recent-txt {
+  margin: 5rem 0 2rem 0;
+  font-family: "Sansita Swashed", serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.recent-line::before {
+  content: "";
+  margin: 0 auto;
+  width: 35rem;
+  height: 0.3rem;
+  display: block;
+  background-color: #7C1009;
+  border-radius: 0 0 1rem 1rem;
+}
+@media (max-width: 575.98px) {
+  .recent-line::before {
+    width: 20rem;
+    height: 0.2rem;
+  }
+}
+
+.recent-line::after {
+  content: "";
+  margin: 0 auto;
+  padding-top: 0.5rem;
+  width: 10rem;
+  height: 0.5rem;
+  display: block;
+  background-color: #7C1009;
+  border-radius: 0 0 1rem 1rem;
+}
+@media (max-width: 575.98px) {
+  .recent-line::after {
+    width: 5rem;
+    height: 0.3rem;
+  }
 }
 
 /*# sourceMappingURL=index-style.css.map */
