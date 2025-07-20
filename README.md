@@ -24,8 +24,13 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
 ## My Portfolio Update
 
 <ul>
+  <li>7.19.2025 - Updated Landing Page</li>
+    <p>Updated the landing page more! It now is almost completed. There is now a nav bar, hero section, companys trusted by section,
+    and now a recent projects section. The recent projects session will be worked on more in the near future.</p>
+    <br>
   <li>6.30.2025 - Company Section & more</li>
     <p>Finished adding hte trusted by companies section. Added images, and grayscale over them during hover. Adding About us Section.</p>
+    <br>
   <li>6.25.2025 - Trusted By Section</li>
     <p>Working on the trusted by area of the landing page. Updating with placeholder images. Also setup a div that creates a line to separate the heading from the content.</p>
     <br>
@@ -33,9 +38,6 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
     <p>Working on the about us section of the pain page.</p>
   <li>6.19.2025 - Hero Section Update</li>
     <p>Updating the hero section of the website. This is the section directly below the nav bar.</p>
-    <br>
-  <li>6.15.2025 - Responsive Nav Bar</li>
-    <p>Adjusted some things so that the Brand name shrinks in size and the e-mail me button vanishes on "sm" (>575.98px) screens.</p>
     <br>
 </ul>
 
