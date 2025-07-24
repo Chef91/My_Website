@@ -14,7 +14,7 @@
     padding-left: 1.5rem;
     font-size: 1.1rem;
     color: $gray-500;
-    opacity: 0.8;
+    opacity: 0.8;text-decoration: underline;
   }
   ul  {
     text-align: start;
@@ -31,5 +31,21 @@
       }
     }
 
+  }
+}
+.soc-link  {
+  margin: 0;
+  h4  {
+    margin: 0 0 3rem 0;
+    font-size: 1.1rem;
+    color: $gray-400;
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+}
+.soc-mod  {
+  margin-right: 3rem;
+  &:hover  {
+    opacity: 0.6;
   }
 }

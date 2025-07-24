@@ -12247,6 +12247,7 @@ ul li {
   font-size: 1.1rem;
   color: #adb5bd;
   opacity: 0.8;
+  text-decoration: underline;
 }
 .cont-us ul {
   text-align: start;
@@ -12262,6 +12263,24 @@ ul li {
 .cont-us ul a:hover {
   color: #e9ecef;
   opacity: 0.9;
+}
+
+.soc-link {
+  margin: 0;
+}
+.soc-link h4 {
+  margin: 0 0 3rem 0;
+  font-size: 1.1rem;
+  color: #ced4da;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.soc-mod {
+  margin-right: 3rem;
+}
+.soc-mod:hover {
+  opacity: 0.6;
 }
 
 /*# sourceMappingURL=index-style.css.map */
