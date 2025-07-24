@@ -35,3 +35,30 @@
   background-color: $primary;
   border-radius: 0 0 1rem 1rem;
 }
+// Carousel
+.carousel-modify  {
+  margin: 2em 0 0 0;
+  border-radius: 1.8rem;
+}
+.carousel-txt  {
+  @include rec-bac-gradient;
+  border-radius: 2rem;
+  color: $white;
+  font-family: serif;
+  h5  {
+    font-size: 2rem;
+    font-family: Sansita Swashed, serif;
+  }
+  p  {
+    font-size: 1.1rem;
+    padding: 0 2rem 0 2rem
+  }
+}
+.rec-btn  {
+  @include rec-btn-gradient;
+  color: $white;
+  border: 1px solid $gray-500;
+  &:hover  {
+    @include rec-btnhov-gradient;
+  }
+}

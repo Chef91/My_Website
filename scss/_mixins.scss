@@ -18,3 +18,15 @@
 @mixin btn-gradient  {
   background: linear-gradient(to right, rgba($lite-gray, 0.75), rgba($lite-red, 0.95));
 }
+// Recent background gradient
+@mixin rec-bac-gradient  {
+  background: linear-gradient(to right, rgba($gray-700, 0.75), rgba($gray-900, 0.75));
+}
+// Recent Button Gradient
+@mixin rec-btn-gradient  {
+  background: linear-gradient(to right, rgba($gray-900, 0.85), rgba($gray-900, 0.85));
+}
+// Recent Hover Button Gradient
+@mixin rec-btnhov-gradient  {
+  background: linear-gradient(to right, rgba($gray-500, 0.45), rgba($gray-500, 0.55));
+}
