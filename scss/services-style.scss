@@ -1,0 +1,12 @@
+//index.html - stylesheet
+
+// Bootstrap Override - Main SCSS Folder
+@use '../scss/custom';
+
+// Import Components - service_page
+@use './mixins';
+
+// Import Landing Page SCSS - service_page
+@use './service_page/navbar';
+@use './service_page/hero';
+@use './service_page/footer';
