@@ -11928,14 +11928,22 @@ textarea.form-control-lg {
   border: 0.1rem solid rgba(40, 37, 31, 0.4);
 }
 
+.hero-bg {
+  background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
+}
+
 .hero {
   margin: 0 0 1rem 0;
   padding: 4rem 0 0 0;
 }
 .hero h2 {
-  font-family: serif;
+  font-family: Chewy, serif;
   font-size: 3rem;
   font-weight: 200;
+  color: #fff;
+}
+.hero p {
+  color: #fff;
 }
 
 .foot-con {
