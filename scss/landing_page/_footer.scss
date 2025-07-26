@@ -5,19 +5,20 @@
   @include gradient;
   color: $white;
   margin: 2rem 0 0 0;
-  padding: 4rem 0 0 0;
+  padding: 1.5rem 0 0 0;
   box-shadow: -1px -1px 18px $gray-900;
 }
 .cont-us  {
   margin: 0;
   h4  {
     padding-left: 1.5rem;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     color: $gray-500;
     opacity: 0.8;text-decoration: underline;
   }
   ul  {
     text-align: start;
+    list-style-type: none;
     a  {
       margin-left: 1.2rem;
       display: flex;
@@ -25,6 +26,7 @@
       color: $gray-400;
       text-decoration: none;
       opacity: 0.7;
+      font-size: 0.9rem;
       &:hover  {
         color: $gray-200;
         opacity: 0.9;
@@ -35,16 +37,23 @@
 }
 .soc-link  {
   margin: 0;
+    ul  {
+      text-align: start;
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      font-size: 0.9rem;
+    }
   h4  {
-    margin: 0 0 3rem 0;
-    font-size: 1.1rem;
+    margin: 0 12rem 1rem 0;
+    font-size: 0.9rem;
     color: $gray-400;
     opacity: 0.8;
     text-decoration: underline;
   }
 }
 .soc-mod  {
-  margin-right: 3rem;
+  margin: 0 0.8rem 0 0.8rem;
   &:hover  {
     opacity: 0.6;
   }

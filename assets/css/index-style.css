@@ -12235,7 +12235,7 @@ ul li {
   background: linear-gradient(to right, #480800, #7c1009);
   color: #fff;
   margin: 2rem 0 0 0;
-  padding: 4rem 0 0 0;
+  padding: 1.5rem 0 0 0;
   box-shadow: -1px -1px 18px #212529;
 }
 
@@ -12244,13 +12244,14 @@ ul li {
 }
 .cont-us h4 {
   padding-left: 1.5rem;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   color: #adb5bd;
   opacity: 0.8;
   text-decoration: underline;
 }
 .cont-us ul {
   text-align: start;
+  list-style-type: none;
 }
 .cont-us ul a {
   margin-left: 1.2rem;
@@ -12259,6 +12260,7 @@ ul li {
   color: #ced4da;
   text-decoration: none;
   opacity: 0.7;
+  font-size: 0.9rem;
 }
 .cont-us ul a:hover {
   color: #e9ecef;
@@ -12268,16 +12270,23 @@ ul li {
 .soc-link {
   margin: 0;
 }
+.soc-link ul {
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  font-size: 0.9rem;
+}
 .soc-link h4 {
-  margin: 0 0 3rem 0;
-  font-size: 1.1rem;
+  margin: 0 12rem 1rem 0;
+  font-size: 0.9rem;
   color: #ced4da;
   opacity: 0.8;
   text-decoration: underline;
 }
 
 .soc-mod {
-  margin-right: 3rem;
+  margin: 0 0.8rem 0 0.8rem;
 }
 .soc-mod:hover {
   opacity: 0.6;

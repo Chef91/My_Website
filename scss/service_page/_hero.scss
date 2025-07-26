@@ -1,2 +1,12 @@
 @use '../custom' as *;
 @use '../mixins' as *;
+
+.hero  {
+  margin: 0 0 1rem 0;
+  padding: 4rem 0 0 0;
+  h2  {
+    font-family: serif;
+    font-size: 3rem;
+    font-weight: 200;
+  }
+}

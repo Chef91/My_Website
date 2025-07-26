@@ -11928,11 +11928,21 @@ textarea.form-control-lg {
   border: 0.1rem solid rgba(40, 37, 31, 0.4);
 }
 
+.hero {
+  margin: 0 0 1rem 0;
+  padding: 4rem 0 0 0;
+}
+.hero h2 {
+  font-family: serif;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
 .foot-con {
   background: linear-gradient(to right, #480800, #7c1009);
   color: #fff;
   margin: 2rem 0 0 0;
-  padding: 4rem 0 0 0;
+  padding: 1.5rem 0 0 0;
   box-shadow: -1px -1px 18px #212529;
 }
 
@@ -11941,7 +11951,7 @@ textarea.form-control-lg {
 }
 .cont-us h4 {
   padding-left: 1.5rem;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   color: #adb5bd;
   opacity: 0.8;
   text-decoration: underline;
@@ -11957,6 +11967,7 @@ textarea.form-control-lg {
   color: #ced4da;
   text-decoration: none;
   opacity: 0.7;
+  font-size: 0.9rem;
 }
 .cont-us ul a:hover {
   color: #e9ecef;
@@ -11971,17 +11982,18 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  font-size: 0.9rem;
 }
 .soc-link h4 {
-  margin: 0 13rem 1rem 0;
-  font-size: 1.1rem;
+  margin: 0 12rem 1rem 0;
+  font-size: 0.9rem;
   color: #ced4da;
   opacity: 0.8;
   text-decoration: underline;
 }
 
 .soc-mod {
-  margin: 0 0.5rem 0 0.5rem;
+  margin: 0 0.8rem 0 0.8rem;
 }
 .soc-mod:hover {
   opacity: 0.6;
