@@ -11934,7 +11934,7 @@ textarea.form-control-lg {
 
 .hero {
   margin: 0 0 1rem 0;
-  padding: 4rem 0 0 0;
+  padding: 4rem 5rem 0 0;
 }
 .hero h2 {
   font-family: Chewy, serif;
@@ -11944,6 +11944,22 @@ textarea.form-control-lg {
 }
 .hero p {
   color: #fff;
+}
+
+.hero-img {
+  margin: 0;
+}
+.hero-img img {
+  width: 50rem;
+  height: 20rem;
+  opacity: 0.7;
+  display: block;
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 30%);
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 30%);
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
 }
 
 .foot-con {
