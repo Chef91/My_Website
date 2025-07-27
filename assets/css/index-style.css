@@ -12067,6 +12067,11 @@ textarea.form-control-lg {
   padding: 6rem 0 6rem 0;
   box-shadow: 0px 5px 15px #343a40;
 }
+@media (max-width: 575.98px) {
+  .about-us {
+    padding: 2rem 0 2rem 0;
+  }
+}
 .about-us h2 {
   font-family: "Sansita Swashed", serif;
   font-weight: 600;
@@ -12092,7 +12097,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .about-header h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
 .about-header p {
@@ -12100,7 +12105,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .about-header p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -12113,7 +12118,16 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .buttons-txt {
-    font-size: 1.2rem;
+    display: none;
+  }
+}
+
+.prof-btn {
+  margin: 0;
+}
+@media (max-width: 575.98px) {
+  .prof-btn {
+    display: none;
   }
 }
 
@@ -12122,7 +12136,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .card-div {
-    font-size: 1.7rem;
+    display: none;
   }
 }
 .card-div--card {
