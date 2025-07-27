@@ -11974,7 +11974,7 @@ textarea.form-control-lg {
 }
 .hero-img img {
   width: 45rem;
-  height: 25rem;
+  height: 32rem;
   opacity: 0.7;
   display: block;
   -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 30%);
@@ -11983,6 +11983,13 @@ textarea.form-control-lg {
   mask-size: 100% 100%;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
+}
+
+.sult-btn {
+  margin: 2.5rem 5rem 3rem 15rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  color: #7C1009;
+  background-color: #28251F;
 }
 
 .foot-con {
