@@ -11854,6 +11854,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: 1.5;
+  }
+}
 .menu {
   background: linear-gradient(to right, #480800, #7c1009);
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -11928,6 +11936,14 @@ textarea.form-control-lg {
   border: 0.1rem solid rgba(40, 37, 31, 0.4);
 }
 
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2);
+  }
+}
 .hero-bg {
   background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
 }
@@ -11988,8 +12004,29 @@ textarea.form-control-lg {
 .sult-btn {
   margin: 2.5rem 5rem 3rem 15rem;
   padding: 1rem 1.5rem 1rem 1.5rem;
-  color: #7C1009;
+  color: #fff;
   background-color: #28251F;
+  font-family: chewy, serif;
+}
+.sult-btn:hover {
+  background-color: #ced4da;
+  opacity: 0.5;
+}
+
+.border-animation {
+  position: absolute;
+  top: 27rem;
+  left: 35rem;
+  width: 9rem;
+  height: 3rem;
+  border: 0.55rem solid #fff;
+  border-radius: 50%;
+  animation: pulse-border 0.8s linear infinite;
+  opacity: 0.2;
+}
+
+.border-2 {
+  animation-delay: 1s;
 }
 
 .foot-con {

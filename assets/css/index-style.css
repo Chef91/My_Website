@@ -11854,6 +11854,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: 1.5;
+  }
+}
 .menu {
   background: linear-gradient(to right, #480800, #7c1009);
   border: 1px solid rgba(0, 0, 0, 0.5);
