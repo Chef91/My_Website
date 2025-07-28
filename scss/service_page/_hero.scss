@@ -49,28 +49,36 @@
     mask-repeat: no-repeat;
     }
 }
-.sult-btn  {
-  margin: 2.5rem 5rem 3rem 15rem;
-  padding: 1rem 1.5rem 1rem 1.5rem;
-  color: $white;
-  background-color: $secondary;
-  font-family: chewy, serif;
+.consult-btn  {
+  position: relative;
+  top: 2.5rem;
+  left: 20rem;
+  padding: 1rem 3rem 1rem 3rem;
+  color: $primary;
+  background-color: $chestnut;
+  font-family: Chewy, serif;
+  font-size: 1.4rem;
+  font-weight: 400;
   &:hover  {
-    background-color: $gray-400;
-    opacity: 0.5;
+    background-color: $primary;
   }
 }
 .border-animation  {
   position: absolute;
   top: 27rem;
-  left: 35rem;
-  width: 9rem;
-  height: 3rem;
+  left: 42.5rem;
+  width: 12rem;
+  height: 4rem;
   border: 0.55rem solid $white;
   border-radius: 50%;
-  animation: pulse-border 0.8s linear infinite;
+  animation: pulse-border 1s linear infinite;
   opacity: 0.2;
 }
 .border-2  {
-  animation-delay: 1s;
+  animation-delay: 1.4s;
+  opacity: 0.2;
+}
+.border-3  {
+  animation-delay: 1.9s;
+  opacity: 0.2;
 }
