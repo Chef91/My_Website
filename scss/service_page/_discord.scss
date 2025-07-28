@@ -5,12 +5,15 @@
 .discord-section  {
   @include abt-gradient;
 }
+.discord-left  {
+  margin: 0;
+}
 .discord-logo  {
   margin: 0;
   padding: 0;
   border-right: 1px solid $white;
   width: 40rem;
-  height: 22rem;
+  height: 24rem;
   opacity: 0.7;
   display: block;
   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 30%);
@@ -19,4 +22,20 @@
   mask-size: 100% 100%;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
+}
+.discord-right  {
+  margin: 0;
+  padding: 2rem 2rem 0 5rem;
+  h3  {
+    margin: 1rem 0 3rem 0;
+    color: $white;
+    text-align: center;
+    font-family: chewy, serif;
+    font-size: 3rem;
+  }
+  p  {
+    color: $white;
+    font-family: serif;
+    font-size: 1.1rem;
+  }
 }

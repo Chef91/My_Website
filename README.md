@@ -24,6 +24,9 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
 ## My Portfolio Update
 
 <ul>
+  <li>7.28.2025 - Updating the Service Page + Adding sections</li>
+    <p>Updating the service page with more sections and information. This will help the viewers see more of what my business has to offer them.</p>
+    <br>
   <li>7.25.2025 - Updated Landing Page + Added Services Page</li>
     <p>Updated the landing page some more! It now has a footer area. Also, our new service page is setup already with a nav bar and footer. Working on refactoring code and finishing the service page.</p>
     <br>
@@ -38,12 +41,6 @@ My name is Wesley, but I prefer to go by "Chef" around the internet. It honestly
   <li>6.25.2025 - Trusted By Section</li>
     <p>Working on the trusted by area of the landing page. Updating with placeholder images. Also setup a div that creates a line to separate the heading from the content.
     </p>
-    <br>
-  <li>6.21.2025 - About us Section</li>
-    <p>Working on the about us section of the pain page.</p>
-    <br>
-  <li>6.19.2025 - Hero Section Update</li>
-    <p>Updating the hero section of the website. This is the section directly below the nav bar.</p>
     <br>
 </ul>
 
