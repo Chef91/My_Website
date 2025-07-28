@@ -1,0 +1,22 @@
+@use '../custom' as *;
+@use '../mixins' as *;
+@use '../keyframes' as *;
+
+.discord-section  {
+  @include abt-gradient;
+}
+.discord-logo  {
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid $white;
+  width: 40rem;
+  height: 22rem;
+  opacity: 0.7;
+  display: block;
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 30%);
+  mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 20%);
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}

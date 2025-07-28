@@ -12038,6 +12038,26 @@ textarea.form-control-lg {
   opacity: 0.2;
 }
 
+.discord-section {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(40, 37, 31, 0.8));
+}
+
+.discord-logo {
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #fff;
+  width: 40rem;
+  height: 22rem;
+  opacity: 0.7;
+  display: block;
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 30%);
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 20%);
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
 .foot-con {
   background: linear-gradient(to right, #480800, #7c1009);
   color: #fff;
