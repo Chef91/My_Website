@@ -4,6 +4,7 @@
 
 .hero-bg  {
   @include hro-gradient;
+  border-bottom: 1px solid $gray-500;
 }
 .hero  {
   @include media-breakpoint-down(sm){

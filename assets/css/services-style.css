@@ -11946,6 +11946,7 @@ textarea.form-control-lg {
 }
 .hero-bg {
   background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
+  border-bottom: 1px solid #adb5bd;
 }
 
 .hero {
@@ -12079,6 +12080,21 @@ textarea.form-control-lg {
   color: #fff;
   font-family: serif;
   font-size: 1.1rem;
+}
+
+.web-extensions {
+  background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
+}
+
+.web-xtn {
+  font-family: chewy, serif;
+  color: #fff;
+}
+.web-xtn h3 {
+  font-family: chewy, serif;
+}
+.web-xtn p {
+  font-size: 1rem;
 }
 
 .foot-con {

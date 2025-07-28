@@ -1,0 +1,17 @@
+@use '../custom' as *;
+@use '../mixins' as *;
+@use '../keyframes' as *;
+
+.web-extensions  {
+  @include hro-gradient;
+}
+.web-xtn  {
+  font-family: chewy, serif;
+  color: $white;
+  h3  {
+    font-family: chewy, serif;
+  }
+  p  {
+    font-size: 1rem;
+  }
+}
