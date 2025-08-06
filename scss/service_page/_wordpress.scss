@@ -2,21 +2,22 @@
 @use '../mixins' as *;
 
 .bg-layer  {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px 
-  inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  @include hro-gradient;
+  box-shadow: rgba(94, 94, 94, 0.644) 0px 30px 60px -12px inset;
+  border-top: 0.05rem solid $gray-600;
 }
 .wordpress  {
   margin: 0;
   padding: 2rem 2rem 0 5rem;
   h3  {
-    margin: 4rem 0 3rem 0;
-    color: $black;
+    margin: 4rem 0 4rem 0;
+    color: $white;
     text-align: center;
     font-family: Chewy, serif;
     font-size: 3rem;
   }
   p  {
-    color: $black;
+    color: $white;
     font-family: serif;
     font-size: 1.1rem;
   }

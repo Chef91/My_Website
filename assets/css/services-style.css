@@ -12130,7 +12130,9 @@ body {
 }
 
 .bg-layer {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
+  box-shadow: rgba(94, 94, 94, 0.644) 0px 30px 60px -12px inset;
+  border-top: 0.05rem solid #6c757d;
 }
 
 .wordpress {
@@ -12138,14 +12140,14 @@ body {
   padding: 2rem 2rem 0 5rem;
 }
 .wordpress h3 {
-  margin: 4rem 0 3rem 0;
-  color: #000;
+  margin: 4rem 0 4rem 0;
+  color: #fff;
   text-align: center;
   font-family: Chewy, serif;
   font-size: 3rem;
 }
 .wordpress p {
-  color: #000;
+  color: #fff;
   font-family: serif;
   font-size: 1.1rem;
 }
