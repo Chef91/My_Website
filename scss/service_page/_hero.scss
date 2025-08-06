@@ -1,7 +1,9 @@
 @use '../custom' as *;
 @use '../mixins' as *;
 @use '../keyframes' as *;
-
+body  {
+  @include hro-gradient;
+}
 .hero-bg  {
   @include hro-gradient;
   border-bottom: 1px solid $gray-500;
@@ -35,11 +37,11 @@
   }
 }
 .hero-img  {
-  @include media-breakpoint-down(sm){
-    display: none;  
-  }
   margin: 0;
   img  {
+    @include media-breakpoint-down(sm){
+      display: none;  
+    }
     width: 45rem;
     height: 32rem;
     opacity: 0.7;
@@ -53,6 +55,9 @@
     }
 }
 .consult-btn  {
+  @include media-breakpoint-down(sm){
+    display: none;
+  }
   position: relative;
   top: 2.5rem;
   left: 20rem;
@@ -64,6 +69,7 @@
   font-weight: 400;
   &:hover  {
     background-color: $primary;
+    color: $white;
   }
 }
 .border-animation  {

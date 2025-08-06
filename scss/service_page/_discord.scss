@@ -8,7 +8,10 @@
 .discord-left  {
   margin: 0;
 }
-.discord-logo  {
+.discord-logo  {  
+  @include media-breakpoint-down(sm){
+    display: none;  
+  }
   margin: 0;
   padding: 0;
   border-right: 1px solid $white;
@@ -27,6 +30,9 @@
   margin: 0;
   padding: 2rem 2rem 0 5rem;
   h3  {
+    @include media-breakpoint-down(sm){
+      font-size: 2rem;
+    }
     margin: 1rem 0 3rem 0;
     color: $white;
     text-align: center;

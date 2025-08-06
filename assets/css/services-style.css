@@ -11859,7 +11859,7 @@ textarea.form-control-lg {
     transform: scale(1);
   }
   100% {
-    transform: 1.5;
+    transform: scale(3);
   }
 }
 .menu {
@@ -11944,6 +11944,10 @@ textarea.form-control-lg {
     transform: scale(2);
   }
 }
+body {
+  background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
+}
+
 .hero-bg {
   background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
   border-bottom: 1px solid #adb5bd;
@@ -11986,11 +11990,6 @@ textarea.form-control-lg {
 .hero-img {
   margin: 0;
 }
-@media (max-width: 575.98px) {
-  .hero-img {
-    display: none;
-  }
-}
 .hero-img img {
   width: 45rem;
   height: 32rem;
@@ -12002,6 +12001,11 @@ textarea.form-control-lg {
   mask-size: 100% 100%;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
+}
+@media (max-width: 575.98px) {
+  .hero-img img {
+    display: none;
+  }
 }
 
 .consult-btn {
@@ -12015,8 +12019,14 @@ textarea.form-control-lg {
   font-size: 1.4rem;
   font-weight: 400;
 }
+@media (max-width: 575.98px) {
+  .consult-btn {
+    display: none;
+  }
+}
 .consult-btn:hover {
   background-color: #7C1009;
+  color: #fff;
 }
 
 .border-animation {
@@ -12064,6 +12074,11 @@ textarea.form-control-lg {
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
 }
+@media (max-width: 575.98px) {
+  .discord-logo {
+    display: none;
+  }
+}
 
 .discord-right {
   margin: 0;
@@ -12075,6 +12090,11 @@ textarea.form-control-lg {
   text-align: center;
   font-family: chewy, serif;
   font-size: 3rem;
+}
+@media (max-width: 575.98px) {
+  .discord-right h3 {
+    font-size: 2rem;
+  }
 }
 .discord-right p {
   color: #fff;
