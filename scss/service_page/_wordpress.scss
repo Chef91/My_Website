@@ -5,11 +5,20 @@
   @include hro-gradient;
   box-shadow: rgba(94, 94, 94, 0.644) 0px 30px 60px -12px inset;
   border-top: 0.05rem solid $gray-600;
+  padding: 0 0 4rem 0;
 }
 .wordpress  {
+  @include media-breakpoint-down(sm){
+   margin: 2rem;
+   padding: 0;
+  }
   margin: 0;
-  padding: 2rem 2rem 0 5rem;
+  padding: 2rem 2rem 0 6rem;
   h3  {
+    @include media-breakpoint-down(sm){
+      margin-left: 0.5rem;
+      font-size: 1.4rem;
+    }
     margin: 4rem 0 4rem 0;
     color: $white;
     text-align: center;
@@ -17,13 +26,21 @@
     font-size: 3rem;
   }
   p  {
+    @include media-breakpoint-down(sm){
+      font-size: 0.9rem;
+      font-family: serif;  
+      padding: 1rem 2.8rem 1rem 2rem;
+    }
     color: $white;
     font-family: serif;
     font-size: 1.1rem;
   }
 }
 .wordpress-img  {
-  margin: 4rem 0 0 20rem;
+  @include media-breakpoint-down(sm){
+    display: none;  
+  }
+  margin: 4rem 0 0 24rem;
   width: 16rem;
   height: 17rem;
 }
