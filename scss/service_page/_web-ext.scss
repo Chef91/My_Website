@@ -1,6 +1,5 @@
 @use '../custom' as *;
 @use '../mixins' as *;
-@use '../keyframes' as *;
 
 .web-extensions  {
   @include hro-gradient;
@@ -9,10 +8,20 @@
 .web-xtn  {
   font-family: chewy, serif;
   color: $white;
+  margin: 4rem 0 3rem 0;
+  padding: 0 3rem 0 3rem;
   h3  {
     font-family: chewy, serif;
+    font-size: 3rem;
   }
   p  {
+    margin-top: 3rem;
     font-size: 1rem;
+    font-family: serif;
   }
+}
+.ext-img  {
+  margin: 2rem 0 0 20rem;
+  width: 24rem;
+  height: 20rem;
 }

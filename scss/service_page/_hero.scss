@@ -1,7 +1,9 @@
 @use '../custom' as *;
 @use '../mixins' as *;
 @use '../keyframes' as *;
-
+body  {
+  @include hro-gradient;
+}
 .hero-bg  {
   @include hro-gradient;
   border-bottom: 1px solid $gray-500;

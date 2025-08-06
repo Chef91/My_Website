@@ -11944,6 +11944,10 @@ textarea.form-control-lg {
     transform: scale(2);
   }
 }
+body {
+  background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
+}
+
 .hero-bg {
   background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
   border-bottom: 1px solid #adb5bd;
@@ -12106,12 +12110,23 @@ textarea.form-control-lg {
 .web-xtn {
   font-family: chewy, serif;
   color: #fff;
+  margin: 4rem 0 3rem 0;
+  padding: 0 3rem 0 3rem;
 }
 .web-xtn h3 {
   font-family: chewy, serif;
+  font-size: 3rem;
 }
 .web-xtn p {
+  margin-top: 3rem;
   font-size: 1rem;
+  font-family: serif;
+}
+
+.ext-img {
+  margin: 2rem 0 0 20rem;
+  width: 24rem;
+  height: 20rem;
 }
 
 .foot-con {
