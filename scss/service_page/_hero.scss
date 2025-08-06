@@ -3,10 +3,12 @@
 @use '../keyframes' as *;
 body  {
   @include hro-gradient;
+  box-shadow: rgba(94, 94, 94, 0.644) 0px 30px 60px -12px inset;
+  border-top: 0.05rem solid $gray-600;
 }
 .hero-bg  {
   @include hro-gradient;
-  border-bottom: 1px solid $gray-500;
+  border-bottom: 0ch solid $gray-600;
 }
 .hero  {
   @include media-breakpoint-down(sm){

@@ -11946,11 +11946,13 @@ textarea.form-control-lg {
 }
 body {
   background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
+  box-shadow: rgba(94, 94, 94, 0.644) 0px 30px 60px -12px inset;
+  border-top: 0.05rem solid #6c757d;
 }
 
 .hero-bg {
   background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
-  border-bottom: 1px solid #adb5bd;
+  border-bottom: 0ch solid #6c757d;
 }
 
 .hero {
@@ -12052,7 +12054,9 @@ body {
 }
 
 .discord-section {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(40, 37, 31, 0.8));
+  background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
+  box-shadow: rgba(94, 94, 94, 0.644) 0px 30px 60px -12px inset;
+  border-top: 0.05rem solid #6c757d;
 }
 
 .discord-left {
@@ -12062,10 +12066,9 @@ body {
 .discord-logo {
   margin: 0;
   padding: 0;
-  border-right: 1px solid #fff;
   width: 40rem;
   height: 24rem;
-  opacity: 0.7;
+  opacity: 0.6;
   display: block;
   -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 30%);
   mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 20%);
@@ -12104,7 +12107,8 @@ body {
 
 .web-extensions {
   background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
-  border-top: 1px solid #fff;
+  box-shadow: rgba(94, 94, 94, 0.644) 0px 30px 60px -12px inset;
+  border-top: 0.05rem solid #6c757d;
 }
 
 .web-xtn {
@@ -12124,7 +12128,7 @@ body {
 }
 
 .ext-img {
-  margin: 2rem 0 0 20rem;
+  margin: 2rem 0 0 10rem;
   width: 24rem;
   height: 20rem;
 }
@@ -12150,6 +12154,12 @@ body {
   color: #fff;
   font-family: serif;
   font-size: 1.1rem;
+}
+
+.wordpress-img {
+  margin: 4rem 0 0 20rem;
+  width: 16rem;
+  height: 17rem;
 }
 
 .foot-con {

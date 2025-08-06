@@ -3,7 +3,8 @@
 
 .web-extensions  {
   @include hro-gradient;
-  border-top: 1px solid $white;
+  box-shadow: rgba(94, 94, 94, 0.644) 0px 30px 60px -12px inset;
+  border-top: 0.05rem solid $gray-600;
 }
 .web-xtn  {
   font-family: chewy, serif;
@@ -21,7 +22,7 @@
   }
 }
 .ext-img  {
-  margin: 2rem 0 0 20rem;
+  margin: 2rem 0 0 10rem;
   width: 24rem;
   height: 20rem;
 }
