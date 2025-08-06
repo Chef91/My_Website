@@ -12084,17 +12084,50 @@ textarea.form-control-lg {
 
 .web-extensions {
   background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
+  border-top: 1px solid #fff;
 }
 
 .web-xtn {
   font-family: chewy, serif;
   color: #fff;
+  margin: 4rem 0 3rem 0;
+  padding: 0 3rem 0 3rem;
 }
 .web-xtn h3 {
   font-family: chewy, serif;
+  font-size: 3rem;
 }
 .web-xtn p {
+  margin-top: 3rem;
   font-size: 1rem;
+  font-family: serif;
+}
+
+.ext-img {
+  margin: 2rem 0 0 20rem;
+  width: 24rem;
+  height: 20rem;
+}
+
+.bg-layer {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.wordpress {
+  margin: 0;
+  padding: 2rem 2rem 0 5rem;
+}
+.wordpress h3 {
+  margin: 4rem 0 3rem 0;
+  color: #000;
+  text-align: center;
+  font-family: Chewy, serif;
+  font-size: 3rem;
+}
+.wordpress p {
+  color: #000;
+  font-family: serif;
+  font-size: 1.1rem;
 }
 
 .foot-con {
