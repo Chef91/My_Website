@@ -33,10 +33,9 @@ const profiles = {
   // Placeholder
   profileJane: {
     image: './images/landing_images/profiles/janedoe.jpg',
-    text: `This is John Doe, our senior back-end developer. John has been with the company for several years now. He is in charge of all of our back-end operations.
-    This means he deals with a lot of programming languages like Python, PHP, MySql, and so on. He's a reliable part of the team because he takes care of all the things
-    you don't see when you are looking at our website.`,
-    heading: 'Johns skills',
+    text: `This is jane Doe, our junior front-end developer. Jane is one of our best front-end developers on the junior team. Specializing in React, Sass, and other frameworks.
+    Jane has been a big part of most of the recent projects we have done. She has played a big part in the success of the company.`,
+    heading: 'Janes skills',
     image1: '<i class="fa-brands fa-html5 fa-3x"></i>',
     image2: '<i class="fa-brands fa-css3-alt fa-3x"></i>',
     image3: '<i class="fa-brands fa-js fa-3x"></i>',
