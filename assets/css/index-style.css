@@ -11892,6 +11892,16 @@ textarea.form-control-lg {
   text-shadow: 3px 2px 2px rgba(128, 83, 0, 0.842);
 }
 
+.nav-timer {
+  margin: 0;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: #fff;
+  font-family: chewy, serif;
+  font-size: 1rem;
+  border: 0.16rem solid #fff;
+  border-radius: 2rem;
+}
+
 .nav-custom {
   font-size: 0.9rem;
   font-family: "Edu NSW ACT Cursive", serif;

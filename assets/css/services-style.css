@@ -11892,6 +11892,16 @@ textarea.form-control-lg {
   text-shadow: 3px 2px 2px rgba(128, 83, 0, 0.842);
 }
 
+.nav-timer {
+  margin: 0;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: #fff;
+  font-family: chewy, serif;
+  font-size: 1rem;
+  border: 0.16rem solid #fff;
+  border-radius: 2rem;
+}
+
 .nav-custom {
   font-size: 0.9rem;
   font-family: "Edu NSW ACT Cursive", serif;
@@ -11956,12 +11966,12 @@ body {
 }
 
 .hero {
-  margin: 0 0 1rem 0;
+  margin: 0 0 10rem 0;
   padding: 4rem 5rem 0 0;
 }
 @media (max-width: 575.98px) {
   .hero {
-    margin: 0;
+    margin: 2rem;
     padding: 0;
   }
 }
@@ -11994,7 +12004,7 @@ body {
 }
 .hero-img img {
   width: 45rem;
-  height: 32rem;
+  height: 36rem;
   opacity: 0.7;
   display: block;
   -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 30%);
@@ -12042,6 +12052,11 @@ body {
   animation: pulse-border 1s linear infinite;
   opacity: 0.2;
 }
+@media (max-width: 575.98px) {
+  .border-animation {
+    display: none;
+  }
+}
 
 .border-2 {
   animation-delay: 1.4s;
@@ -12057,6 +12072,8 @@ body {
   background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
   box-shadow: rgba(94, 94, 94, 0.644) 0px 30px 60px -12px inset;
   border-top: 0.05rem solid #6c757d;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
 
 .discord-left {
@@ -12064,18 +12081,11 @@ body {
 }
 
 .discord-logo {
-  margin: 0;
+  margin: 3rem 0 0 20rem;
   padding: 0;
-  width: 40rem;
-  height: 24rem;
-  opacity: 0.6;
+  width: 20rem;
+  height: 18rem;
   display: block;
-  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 30%);
-  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 20%);
-  -webkit-mask-size: 100% 100%;
-  mask-size: 100% 100%;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
 }
 @media (max-width: 575.98px) {
   .discord-logo {
@@ -12087,6 +12097,12 @@ body {
   margin: 0;
   padding: 2rem 2rem 0 5rem;
 }
+@media (max-width: 575.98px) {
+  .discord-right {
+    margin: 2rem;
+    padding: 0;
+  }
+}
 .discord-right h3 {
   margin: 1rem 0 3rem 0;
   color: #fff;
@@ -12096,7 +12112,8 @@ body {
 }
 @media (max-width: 575.98px) {
   .discord-right h3 {
-    font-size: 2rem;
+    margin: 1rem;
+    font-size: 1.4rem;
   }
 }
 .discord-right p {
@@ -12104,11 +12121,20 @@ body {
   font-family: serif;
   font-size: 1.1rem;
 }
+@media (max-width: 575.98px) {
+  .discord-right p {
+    font-size: 0.9rem;
+    font-family: serif;
+    padding: 1rem 2.8rem 1rem 2rem;
+  }
+}
 
 .web-extensions {
   background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
   box-shadow: rgba(94, 94, 94, 0.644) 0px 30px 60px -12px inset;
   border-top: 0.05rem solid #6c757d;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .web-xtn {
@@ -12117,31 +12143,62 @@ body {
   margin: 4rem 0 3rem 0;
   padding: 0 3rem 0 3rem;
 }
+@media (max-width: 575.98px) {
+  .web-xtn {
+    margin: 2rem;
+    padding: 0;
+  }
+}
 .web-xtn h3 {
   font-family: chewy, serif;
   font-size: 3rem;
+}
+@media (max-width: 575.98px) {
+  .web-xtn h3 {
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
+  }
 }
 .web-xtn p {
   margin-top: 3rem;
   font-size: 1rem;
   font-family: serif;
 }
+@media (max-width: 575.98px) {
+  .web-xtn p {
+    font-size: 0.9rem;
+    font-family: serif;
+    padding: 1rem 2.8rem 1rem 2rem;
+  }
+}
 
 .ext-img {
-  margin: 2rem 0 0 10rem;
+  margin: 2rem 0 0 2rem;
   width: 24rem;
   height: 20rem;
+}
+@media (max-width: 575.98px) {
+  .ext-img {
+    display: none;
+  }
 }
 
 .bg-layer {
   background: linear-gradient(to right, rgba(40, 37, 31, 0.95), rgba(0, 0, 0, 0.9));
   box-shadow: rgba(94, 94, 94, 0.644) 0px 30px 60px -12px inset;
   border-top: 0.05rem solid #6c757d;
+  padding: 0 0 4rem 0;
 }
 
 .wordpress {
   margin: 0;
-  padding: 2rem 2rem 0 5rem;
+  padding: 2rem 2rem 0 6rem;
+}
+@media (max-width: 575.98px) {
+  .wordpress {
+    margin: 2rem;
+    padding: 0;
+  }
 }
 .wordpress h3 {
   margin: 4rem 0 4rem 0;
@@ -12150,16 +12207,34 @@ body {
   font-family: Chewy, serif;
   font-size: 3rem;
 }
+@media (max-width: 575.98px) {
+  .wordpress h3 {
+    margin-left: 0.5rem;
+    font-size: 1.4rem;
+  }
+}
 .wordpress p {
   color: #fff;
   font-family: serif;
   font-size: 1.1rem;
 }
+@media (max-width: 575.98px) {
+  .wordpress p {
+    font-size: 0.9rem;
+    font-family: serif;
+    padding: 1rem 2.8rem 1rem 2rem;
+  }
+}
 
 .wordpress-img {
-  margin: 4rem 0 0 20rem;
+  margin: 4rem 0 0 24rem;
   width: 16rem;
   height: 17rem;
+}
+@media (max-width: 575.98px) {
+  .wordpress-img {
+    display: none;
+  }
 }
 
 .foot-con {
